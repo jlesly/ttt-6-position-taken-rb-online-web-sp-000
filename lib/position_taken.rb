@@ -1,5 +1,5 @@
 # code your #position_taken? method here!
-require-relative '../lib/position_taken.rb'
+require-relative '../spec/position_taken_spec.rb'
 
 def position_taken?(board, index)
   if board[index] == " " || board[index] == "" || board[index] == nil 
